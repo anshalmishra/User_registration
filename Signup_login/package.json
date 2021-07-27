@@ -1,0 +1,21 @@
+{
+  "name": "signup_login",
+  "version": "1.0.0",
+  "description": "this is a test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "Anshal Ashish",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "nodemailer": "^6.6.3",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
